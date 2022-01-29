@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+       body {
+           background-image: url('./images/houseboat5.jpg');
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size:100% 100%;          
+  }
+  
+    .page-footer{
+      margin-top: 50pt;
+      background-color:rgb(223, 63, 63);
+    }
+ 
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  " width="100%">
+      <img id="logo"src="./images/logo.jpeg" alt="" height="50px" width="50px">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="districts.html">Districts<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Sign in</a>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign up</a>
+
+            </li>
+        
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+    <!-- form starts -->
+    <div class="row">
+    <div class="col-lg-4"></div>
+   
+    
+    <div class="col-lg-4 myMargin">
+      <form id="signinform" ><br>
+        <h4 id="signintitle">Sign in to Kerala Tourism</h4><br>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+           </div>
+        <div id="signin" class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <button id="signinbutton" type="submit" class="btn btn-primary" >Sign in</button>
+        <div id="newherediv"><br>
+        <p id="newhere">New here?
+        <a id="signuplink" href="signup.html">Sign up</a>
+        </p>
+        </div>
+      </form>
+    </div>
+    
+    <!-- form end -->
+</div>
+  
+
+ <!-- footer -->
+ <footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Contact us</h5>
+        <p>Email:keralatourism@gmail.com</p>
+        <p>Phone No:9148597656</p>
+
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">PLACES</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="idukki.html">Munnar</a>
+          </li>
+          <li>
+            <a href="alappuzha.html">Alappuzha</a>
+          </li>
+          <li>
+            <a href="ernakulam.html">Kochi</a>
+          </li>
+          <li>
+            <a href="wayanad.html">Wayanad</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Specialities</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Ayurveda</a>
+          </li>
+          <li>
+            <a href="#!">Houseboat</a>
+          </li>
+          <li>
+            <a href="#!">Kerala food</a>
+          </li>
+          <li>
+            <a href="#!">Festivals</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+      
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://www.keralatourism.gov.in/"> www.keralatourism.gov.in</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer ends-->
+ <script src="validate.js"></script>   
+    
+</body>
+</html>

@@ -1,0 +1,227 @@
+.navbar{
+    z-index:12; 
+    /* just an estimate of your sidebar's width */
+     width: calc(100% ); 
+     /* margin-right: 100pt; */
+     /* margin-left: 100pt; */
+     
+  }
+  .navbar #logo{
+    padding-left: 10pt;
+  }
+  .navbar-brand{
+      padding-left: 1em;
+      color:white;
+  }
+  .nav-link{
+      color: white;
+  }
+  
+   #carouselExampleSlidesOnly{
+     position:absolute;
+     width:100%;
+     top:0;
+   }
+    #signin{
+      
+     color:red;
+     font-weight:700 ;
+   } 
+   #signinbutton{
+         width: 100%;
+   }
+   #signintitle{
+     color: brown;
+     text-align: center;
+   }
+    #signinform{
+     margin-top: 10px;
+    }
+    #newherediv{
+      text-align: center;
+      font-size: medium;
+    }
+    #signintitle{
+      color: brown;
+      text-align: center;
+    }
+    #signupform{
+      border:solid blue 4px;
+      padding: 50px;
+      background-color: white;
+      padding-bottom: 25px;
+    }
+    #signinform{
+      border:solid blue 4px;
+      padding: 50px;
+      background-color: white;
+     padding-bottom: 25px;
+    }
+    #signupbutton{
+          width: 100%;
+     }
+    #signuptitle{
+      color: brown;
+      text-align: center;
+    }
+    #haveaccountdiv{
+      text-align: center;
+      font-size: medium;
+    }
+    .districts{
+      border:solid brown 4px;
+      background: white;
+      margin-right: 100px;
+      margin-left: 100px;
+      padding-bottom: 90px;
+      padding-top: 10px;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+    .districtdescription{
+      float: right;
+
+    }
+   
+    .districtname{
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+      padding-top: 10pt;
+    }
+    #Malappuram{
+      padding-bottom: 70px;
+
+    }
+    #Palakkad{
+      padding-bottom: 70px;
+      padding-right: 10pt;
+
+    }
+    
+    .carousel-inner > .item {
+      position: relative;
+      display: none;
+      -webkit-transition: 1.0s ease-in-out left;
+      -moz-transition: 1.0s ease-in-out left;
+      -o-transition: 1.0s ease-in-out left;
+      transition: 1.0s ease-in-out left;
+  }
+    #welcome{
+      color: red;
+      font-size:.5cm;
+      font-style: italic;
+      font-weight:bold;
+      margin-top: 450px;
+    }
+    #topattractions{
+      text-align: center;
+    }
+    .topattractionsimage{
+     margin-top: 50pt;
+     float: left;
+     margin-left: 40pt;     
+      
+    }
+    .topattractionstitle{
+     font-style: italic;
+     color: darkviolet;   
+     word-wrap: break-word;
+   }
+   .topattractions{
+     margin-left: 100pt;
+     margin-right: 100pt;   
+
+   }
+   #thingstodo{
+     margin-top: 650pt;
+     text-align: center;
+     
+  }
+  .thingstodo{
+    margin-left: 100pt;
+    margin-right: 100pt;  
+
+  }
+  .thingstodoimages{
+    margin-top: 50pt;
+    float: left;
+    margin-left: 40pt;     
+     
+   }
+   .thingstodotitle{
+    font-style: italic;
+    color: blue ; 
+    word-wrap: break-word;
+  }
+  
+  
+  #kasaragodintro{
+    margin-top: 20pt;
+  }
+  .placeslist{
+    font-weight: 700;
+    font-size: x-large;
+
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color:brown;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  #nextbtn{
+    float: right;
+  }
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  } 
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+ 
